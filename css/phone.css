@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px){
+
+
+.nav-bar ul{
+  display: block;
+  margin-left: 85px;
+  width: 75%;
+}
+.login{
+ width: 20%;
+ margin-top: 10px;
+}
+
+.section1-photo{/*For hidinig the photo*/
+  display:none;
+}
+.section1-signup{
+  margin-left: 45px;
+  margin-top: 100px;
+}
+#title-for600px{
+  display: block;
+  text-align: justify;  
+}
+#title-for1025px{
+  display: none;
+}
+.main-footer{
+  flex-direction: column;
+}
+.course-catalog{
+  flex-direction: column-reverse;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  
+}
+.left-child{
+  flex: 1 1 50%;
+}
+.footer-left{
+  margin-left: 10px;
+  border-bottom: 1px solid black;
+}
+.footer-right{
+  border-left:none;
+  border-bottom: 1px solid black;
+}
+.right-child{
+  flex: 1 1 100%;
+  justify-content:space-evenly;
+}
+.social-login{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.social-login ul{
+  margin: 15px 0;
+}
+}
